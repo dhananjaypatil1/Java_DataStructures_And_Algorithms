@@ -1,11 +1,12 @@
+package com.sorts;
 
-public class quickSort {
+public class QuickSort {
 	int myArr[];
 	int len;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int A[] = {2,4,5,3,79,5,7,8,9};
-		quickSort q= new quickSort();
+		QuickSort q= new QuickSort();
 		//int length = A.length-1;
 		q.sort(A);
 		for( int i : A){

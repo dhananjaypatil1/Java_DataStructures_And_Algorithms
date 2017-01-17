@@ -1,4 +1,4 @@
-package com.dhananjay.sorts;
+package com.sorts;
 
 public class MergeSort {
 	int myArray[];
